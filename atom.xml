@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2019-11-11T16:57:18.043Z</updated>
+  <updated>2019-11-11T17:34:50.207Z</updated>
   <id>/</id>
   
   <author>
@@ -21,27 +21,23 @@
     <link href="/2019/11/11/%E4%B8%AD%E5%80%BC%E5%AE%9A%E7%90%86%E7%9A%84%E8%AF%81%E6%98%8E%E4%B8%8E%E7%90%86%E8%A7%A3/"/>
     <id>/2019/11/11/中值定理的证明与理解/</id>
     <published>2019-11-11T09:02:03.000Z</published>
-    <updated>2019-11-11T16:57:18.043Z</updated>
+    <updated>2019-11-11T17:34:50.207Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="1-费马引理"><a href="#1-费马引理" class="headerlink" title="1.费马引理"></a>1.费马引理</h2><blockquote><p>设函数$f(x)$在$x_0$某邻域内有定义，并且在$x_0$处可导，如果对于任意的$x \in U(x_0)$,有$f(x)&lt;=f(x_0),$那么$f’(x)=0$.</p></blockquote><h2 id="2-罗尔定理"><a href="#2-罗尔定理" class="headerlink" title="2.罗尔定理"></a>2.罗尔定理</h2><blockquote><p><strong>罗尔定理</strong>  如果函数$f(x)$满足:</p><p>在闭区间$[a,b]$上连续;</p><p>在开区间$(a,b)$内可导;</p><p>在<code>端点处函数值相等</code>,即$f(a)=f(b)$.</p><p>那么在$(a,b)$内至少存在一点$\xi$,使得$f’(\xi)=0$.</p></blockquote><a id="more"></a><h4 id="证明思路"><a href="#证明思路" class="headerlink" title="证明思路"></a>证明思路</h4><h4 id="几何意义"><a href="#几何意义" class="headerlink" title="几何意义"></a>几何意义</h4><h2 id="3-拉格朗日中值定理"><a href="#3-拉格朗日中值定理" class="headerlink" title="3.拉格朗日中值定理"></a>3.拉格朗日中值定理</h2><blockquote><p>如果函数$f(x)$满足：</p><p>在闭区间$[a,b]$上连续；</p><p>在开区间$(a,b)$内可导；</p><p>那么在$(a,b)$内至少存在有一点$\xi$使得$f(a)−f(b)=f′ (\xi)(b−a)$.</p></blockquote><h4 id="证明思路-1"><a href="#证明思路-1" class="headerlink" title="证明思路"></a>证明思路</h4><h4 id="几何意义-1"><a href="#几何意义-1" class="headerlink" title="几何意义"></a>几何意义</h4><h2 id="3-柯西中值定理"><a href="#3-柯西中值定理" class="headerlink" title="3.柯西中值定理"></a>3.柯西中值定理</h2><blockquote><p>如果函数$f(x)$及$F(x)$满足：</p><p>在闭区间$[a,b]$上连续；</p><p>在开区间$(a,b)$内可导；</p><p>对任$x \in (a,b)$，都有$F′ (x)≠0$，那么在$(a,b)$内至少有一点$\xi$使下述等式成立:</p><script type="math/tex; mode=display">\frac {(f(b)−f(a))}{(F(b)−F(a) )}=\frac{(f^′ (\xi))}{(F^′ (\xi) )}</script></blockquote><h4 id="证明思路-2"><a href="#证明思路-2" class="headerlink" title="证明思路"></a>证明思路</h4><h4 id="几何意义-2"><a href="#几何意义-2" class="headerlink" title="几何意义"></a>几何意义</h4>]]></content>
+    <content type="html"><![CDATA[<h3 id="费马引理"><a href="#费马引理" class="headerlink" title="费马引理"></a><strong>费马引理</strong></h3><blockquote><p>设函数$f(x)$在$x_0$某邻域内有定义，并且在$x_0$处可导，如果对于任意的$x \in U(x_0)$,有$f(x)&lt;=f(x_0),$那么$f’(x)=0$.</p></blockquote><h6 id="证明思路"><a href="#证明思路" class="headerlink" title="证明思路"></a>证明思路</h6><p>不妨选取小于等于零的情况。函数的导数的极限意义是：$\lim\limits_{\Delta x \to x_0} {\frac{f(x)-f(x_0)}{\Delta x}}$；分子$f(x)−f(x_0 )≤0$，由于保号性左右极限如果非零，那符号只取决于$\Delta x$的正负值，那显然与左右极限相等矛盾，因此只能取零。</p><a id="more"></a><h6 id="几何意义"><a href="#几何意义" class="headerlink" title="几何意义"></a>几何意义</h6><p>实际上，费马定理揭示了一个几何现象：极值点导数为零；极值点的数学定义就是费马引理的条件之一：设函数在$x_0$的某邻域内，恒有$f(x)≤f(x_0 )$(或者$f(x)≥f(x_0)$),则该点称为极大值点（极小值点）；而费马定理加了一个条件就是可导。换言之，这说明：极值点如果可导，那么导数必为零。</p><h3 id="罗尔定理"><a href="#罗尔定理" class="headerlink" title="罗尔定理"></a><strong>罗尔定理</strong></h3><blockquote><p><strong>罗尔定理</strong>  如果函数$f(x)$满足:</p><p>在闭区间$[a,b]$上连续;<!--三者都有--></p><p><del>在开区间$(a,b)$内可导</del>;<!--三者都有--></p><p>在<code>端点处函数值相等</code>,即$f(a)=f(b)$.</p><p>那么在$(a,b)$内至少存在一点$\xi$,使得$f’(\xi)=0$.</p></blockquote><h6 id="证明思路-1"><a href="#证明思路-1" class="headerlink" title="证明思路"></a>证明思路</h6><p>和费马定理比对。发现，极值点就是这样的$\xi$。闭区间连续的函数在连续区间一定能取得最值（最大值最小值定理），而最值点一定是极值点。而条件是在开区间取的，分析如果最值点都在端点，那必然相等就是常数，显然符合；如果不都在端点，那不在端点的就一定是极值了。那就是我们的$\xi$。</p><h6 id="几何意义-1"><a href="#几何意义-1" class="headerlink" title="几何意义"></a>几何意义</h6><p>罗尔定理揭示了一个现象，在闭区间连续，开区间可导的函数，如果端点值相等，那在该开区间内，一定存在导数为零的数。实际上这个点我们由上列证明可以知道，最值点就是永远不会少的那个至少点。（也可能是其他的点，但她永远不会缺席）</p><h3 id="格朗日中值定理"><a href="#格朗日中值定理" class="headerlink" title="格朗日中值定理"></a>格朗日中值定理</h3><blockquote><p>如果函数$f(x)$满足：</p><p>在闭区间$[a,b]$上连续；<!--三者都有--></p><p>在开区间$(a,b)$内可导；<!--三者都有--></p><p>那么在$(a,b)$内至少存在有一点$\xi$使得$f(a)−f(b)=f′ (\xi)(b−a)$.</p></blockquote><h6 id="证明思路-2"><a href="#证明思路-2" class="headerlink" title="证明思路"></a>证明思路</h6><p>将拉氏定理变形为罗尔定理的样子，很容易就看到，只是把$f(x)$换成了$\frac {f(b)-f(a)}{b-a}x−f(x)$，代入端点之后相等。<del>直接用罗尔定理就可以了</del>。</p><h6 id="几何意义-2"><a href="#几何意义-2" class="headerlink" title="几何意义"></a>几何意义</h6><p>拉氏定理的结论实际上说的就是：闭区间连续，开区间可导的函数，在开区间内必然有一点的斜率（导数）等于端点连接线的斜率。</p><h6 id="代数价值"><a href="#代数价值" class="headerlink" title="代数价值"></a>代数价值</h6><p>闭区间连续，开区间可导的函数，在该区间。即使在只知道一点坐标的情况下，也可以将另一点用某种方式表达出来。也就是说$\tan \alpha=\frac{f(b)-f(a)}{b-a}=f’(\xi)$。其中$\xi$在$\Delta x$的范围内。</p><h3 id="柯西中值定理"><a href="#柯西中值定理" class="headerlink" title="柯西中值定理"></a>柯西中值定理</h3><blockquote><p>如果函数$f(x)$及$F(x)$满足：</p><p>在闭区间$[a,b]$上连续；<!--三者都有--></p><p>在开区间$(a,b)$内可导；<!--三者都有--></p><p>对任$x \in (a,b)$，都有$F′ (x)≠0$，那么在$(a,b)$内至少有一点$\xi$使下述等式成立:</p><script type="math/tex; mode=display">\frac {(f(b)−f(a))}{(F(b)−F(a) )}=\frac{(f^′ (\xi))}{(F^′ (\xi) )}</script></blockquote><h6 id="证明思路-3"><a href="#证明思路-3" class="headerlink" title="证明思路"></a>证明思路</h6><p>对柯西中值定理的等式进行变形，即得到$\frac{f(b)-f(a)}{b-a}F’(\xi)−f′ (\xi)=0$，因此构造函数也就很明显啦。再套用罗尔定理很快即可得证。</p><h6 id="几何意义-3"><a href="#几何意义-3" class="headerlink" title="几何意义"></a>几何意义</h6><p>实际上，柯西中值定理的启发思路，就是来自拉式中值定理的参数方程，让定理中的$F(x)=x$，左侧就是AB斜率，右侧就是切线斜率。</p>]]></content>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;1-费马引理&quot;&gt;&lt;a href=&quot;#1-费马引理&quot; class=&quot;headerlink&quot; title=&quot;1.费马引理&quot;&gt;&lt;/a&gt;1.费马引理&lt;/h2&gt;&lt;blockquote&gt;
+      &lt;h3 id=&quot;费马引理&quot;&gt;&lt;a href=&quot;#费马引理&quot; class=&quot;headerlink&quot; title=&quot;费马引理&quot;&gt;&lt;/a&gt;&lt;strong&gt;费马引理&lt;/strong&gt;&lt;/h3&gt;&lt;blockquote&gt;
 &lt;p&gt;设函数$f(x)$在$x_0$某邻域内有定义，并且在$x_0$处可导，如果对于任意的$x \in U(x_0)$,有$f(x)&amp;lt;=f(x_0),$那么$f’(x)=0$.&lt;/p&gt;
-&lt;/blockquote&gt;&lt;h2 id=&quot;2-罗尔定理&quot;&gt;&lt;a href=&quot;#2-罗尔定理&quot; class=&quot;headerlink&quot; title=&quot;2.罗尔定理&quot;&gt;&lt;/a&gt;2.罗尔定理&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;罗尔定理&lt;/strong&gt;  如果函数$f(x)$满足:&lt;/p&gt;
-&lt;p&gt;在闭区间$[a,b]$上连续;&lt;/p&gt;
-&lt;p&gt;在开区间$(a,b)$内可导;&lt;/p&gt;
-&lt;p&gt;在&lt;code&gt;端点处函数值相等&lt;/code&gt;,即$f(a)=f(b)$.&lt;/p&gt;
-&lt;p&gt;那么在$(a,b)$内至少存在一点$\xi$,使得$f’(\xi)=0$.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;/blockquote&gt;&lt;h6 id=&quot;证明思路&quot;&gt;&lt;a href=&quot;#证明思路&quot; class=&quot;headerlink&quot; title=&quot;证明思路&quot;&gt;&lt;/a&gt;证明思路&lt;/h6&gt;&lt;p&gt;不妨选取小于等于零的情况。函数的导数的极限意义是：$\lim\limits_{\Delta x \to x_0} {\frac{f(x)-f(x_0)}{\Delta x}}$；分子$f(x)−f(x_0 )≤0$，由于保号性左右极限如果非零，那符号只取决于$\Delta x$的正负值，那显然与左右极限相等矛盾，因此只能取零。&lt;/p&gt;
     
     </summary>
     
     
+      <category term="数学" scheme="/categories/%E6%95%B0%E5%AD%A6/"/>
     
-      <category term="数学" scheme="/tags/%E6%95%B0%E5%AD%A6/"/>
+    
+      <category term="证明" scheme="/tags/%E8%AF%81%E6%98%8E/"/>
     
   </entry>
   
