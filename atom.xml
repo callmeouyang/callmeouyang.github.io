@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2019-11-11T13:50:20.801Z</updated>
+  <updated>2019-11-11T16:57:18.043Z</updated>
   <id>/</id>
   
   <author>
@@ -21,16 +21,21 @@
     <link href="/2019/11/11/%E4%B8%AD%E5%80%BC%E5%AE%9A%E7%90%86%E7%9A%84%E8%AF%81%E6%98%8E%E4%B8%8E%E7%90%86%E8%A7%A3/"/>
     <id>/2019/11/11/中值定理的证明与理解/</id>
     <published>2019-11-11T09:02:03.000Z</published>
-    <updated>2019-11-11T13:50:20.801Z</updated>
+    <updated>2019-11-11T16:57:18.043Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="三大中值定理"><a href="#三大中值定理" class="headerlink" title="三大中值定理"></a>三大中值定理</h1><script type="math/tex; mode=display">f(x,y,z) = 3y^2z \left( 3+\frac{7x+5}{1+y^2} \right)</script><h2 id="罗尔定理"><a href="#罗尔定理" class="headerlink" title="罗尔定理"></a>罗尔定理</h2><h3 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h3><p>罗尔定理是很帮额</p><h3 id="证明"><a href="#证明" class="headerlink" title="证明"></a>证明</h3><h3 id="理解"><a href="#理解" class="headerlink" title="理解"></a>理解</h3><h2 id="拉格朗日中值定理"><a href="#拉格朗日中值定理" class="headerlink" title="拉格朗日中值定理"></a>拉格朗日中值定理</h2><h3 id="说明-1"><a href="#说明-1" class="headerlink" title="说明"></a>说明</h3><h3 id="证明-1"><a href="#证明-1" class="headerlink" title="证明"></a>证明</h3><h3 id="理解-1"><a href="#理解-1" class="headerlink" title="理解"></a>理解</h3><h2 id="柯西中值定理"><a href="#柯西中值定理" class="headerlink" title="柯西中值定理"></a>柯西中值定理</h2><h3 id="说明-2"><a href="#说明-2" class="headerlink" title="说明"></a>说明</h3><h3 id="证明-2"><a href="#证明-2" class="headerlink" title="证明"></a>证明</h3><h3 id="理解-2"><a href="#理解-2" class="headerlink" title="理解"></a>理解</h3>]]></content>
+    <content type="html"><![CDATA[<h2 id="1-费马引理"><a href="#1-费马引理" class="headerlink" title="1.费马引理"></a>1.费马引理</h2><blockquote><p>设函数$f(x)$在$x_0$某邻域内有定义，并且在$x_0$处可导，如果对于任意的$x \in U(x_0)$,有$f(x)&lt;=f(x_0),$那么$f’(x)=0$.</p></blockquote><h2 id="2-罗尔定理"><a href="#2-罗尔定理" class="headerlink" title="2.罗尔定理"></a>2.罗尔定理</h2><blockquote><p><strong>罗尔定理</strong>  如果函数$f(x)$满足:</p><p>在闭区间$[a,b]$上连续;</p><p>在开区间$(a,b)$内可导;</p><p>在<code>端点处函数值相等</code>,即$f(a)=f(b)$.</p><p>那么在$(a,b)$内至少存在一点$\xi$,使得$f’(\xi)=0$.</p></blockquote><a id="more"></a><h4 id="证明思路"><a href="#证明思路" class="headerlink" title="证明思路"></a>证明思路</h4><h4 id="几何意义"><a href="#几何意义" class="headerlink" title="几何意义"></a>几何意义</h4><h2 id="3-拉格朗日中值定理"><a href="#3-拉格朗日中值定理" class="headerlink" title="3.拉格朗日中值定理"></a>3.拉格朗日中值定理</h2><blockquote><p>如果函数$f(x)$满足：</p><p>在闭区间$[a,b]$上连续；</p><p>在开区间$(a,b)$内可导；</p><p>那么在$(a,b)$内至少存在有一点$\xi$使得$f(a)−f(b)=f′ (\xi)(b−a)$.</p></blockquote><h4 id="证明思路-1"><a href="#证明思路-1" class="headerlink" title="证明思路"></a>证明思路</h4><h4 id="几何意义-1"><a href="#几何意义-1" class="headerlink" title="几何意义"></a>几何意义</h4><h2 id="3-柯西中值定理"><a href="#3-柯西中值定理" class="headerlink" title="3.柯西中值定理"></a>3.柯西中值定理</h2><blockquote><p>如果函数$f(x)$及$F(x)$满足：</p><p>在闭区间$[a,b]$上连续；</p><p>在开区间$(a,b)$内可导；</p><p>对任$x \in (a,b)$，都有$F′ (x)≠0$，那么在$(a,b)$内至少有一点$\xi$使下述等式成立:</p><script type="math/tex; mode=display">\frac {(f(b)−f(a))}{(F(b)−F(a) )}=\frac{(f^′ (\xi))}{(F^′ (\xi) )}</script></blockquote><h4 id="证明思路-2"><a href="#证明思路-2" class="headerlink" title="证明思路"></a>证明思路</h4><h4 id="几何意义-2"><a href="#几何意义-2" class="headerlink" title="几何意义"></a>几何意义</h4>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;h1 id=&quot;三大中值定理&quot;&gt;&lt;a href=&quot;#三大中值定理&quot; class=&quot;headerlink&quot; title=&quot;三大中值定理&quot;&gt;&lt;/a&gt;三大中值定理&lt;/h1&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;f(x,y,z) = 3y^2z \l
-      
+      &lt;h2 id=&quot;1-费马引理&quot;&gt;&lt;a href=&quot;#1-费马引理&quot; class=&quot;headerlink&quot; title=&quot;1.费马引理&quot;&gt;&lt;/a&gt;1.费马引理&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;设函数$f(x)$在$x_0$某邻域内有定义，并且在$x_0$处可导，如果对于任意的$x \in U(x_0)$,有$f(x)&amp;lt;=f(x_0),$那么$f’(x)=0$.&lt;/p&gt;
+&lt;/blockquote&gt;&lt;h2 id=&quot;2-罗尔定理&quot;&gt;&lt;a href=&quot;#2-罗尔定理&quot; class=&quot;headerlink&quot; title=&quot;2.罗尔定理&quot;&gt;&lt;/a&gt;2.罗尔定理&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;罗尔定理&lt;/strong&gt;  如果函数$f(x)$满足:&lt;/p&gt;
+&lt;p&gt;在闭区间$[a,b]$上连续;&lt;/p&gt;
+&lt;p&gt;在开区间$(a,b)$内可导;&lt;/p&gt;
+&lt;p&gt;在&lt;code&gt;端点处函数值相等&lt;/code&gt;,即$f(a)=f(b)$.&lt;/p&gt;
+&lt;p&gt;那么在$(a,b)$内至少存在一点$\xi$,使得$f’(\xi)=0$.&lt;/p&gt;
+&lt;/blockquote&gt;
     
     </summary>
     
